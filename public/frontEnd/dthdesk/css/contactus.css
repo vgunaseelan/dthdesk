@@ -1,0 +1,104 @@
+input:focus,
+textarea:focus,
+keygen:focus,
+select:focus {
+    outline: none;
+}
+
+
+/* contact from design */
+
+.sec1title {
+    text-align: center;
+}
+
+.sec1title h1 {
+    font-size: 40px;
+    margin: 25px;
+    text-transform: uppercase;
+    color: #16F1D4;
+    font-weight: 400;
+}
+
+.section2 {
+    position: relative;
+    overflow: hidden;
+    height: 750px;
+    padding-top: 10px;
+}
+
+.section2 .contactforms {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 99;
+    background: #a8a8a8;
+    width: 430px;
+    padding: 30px 40px;
+    /* box-sizing: border-box; */
+}
+
+.section2 .contactforms input.form-fields,
+.section2 .contactforms button.form-fields,
+.section2 .contactforms textarea.form-fields {
+    padding: 0 0 0 40px;
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    font-size: 16px;
+    background: #c5c4c4;
+    margin: 7px 0;
+    border: 1px solid #ffffff;
+    color: #0d0d0e;
+    /* font-weight: 700; */
+    /* opacity: 0.5; */
+    min-height: 45px;
+    text-shadow: none;
+    position: relative;
+}
+
+.section2 .contactforms textarea.form-fields {
+    padding: 8px 40px;
+    resize: none;
+    color: #000000 !important;
+}
+
+.section2 .contactforms button.form-fields.button {
+    /* color: #16F1D4; */
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.section2 .contactforms button.form-fields.button:hover {
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    opacity: 1;
+    border: none;
+}
+
+.form-fields .button {
+    background-color: red !important;
+}
+
+.section2 .contactforms button.form-fields.button i {
+    margin-left: 10px;
+}
+
+.section2 .contactforms h5 {
+    color: rgb(255, 4, 4);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section2 .contactforms label .cntfrmicn {
+    color: rgb(193, 0, 0);
+    padding: 14px;
+    position: absolute;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 660px) {}
